@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:js": "eslint '**/*.js' --ignore-pattern node\\_modules/",
 "lint:js:fix": "eslint '**/*.js' --ignore-pattern node\\_modules/ --fix",
+    "lint": "npm run lint:js && npm run lint:css",
     "lint:css": "stylelint '**/*.css'",
     "lint:css:fix": "stylelint '**/*.css' --fix"
   },
